@@ -1,0 +1,163 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    font-family: 'Montserrat';
+}
+
+
+
+.wrapped{
+    margin: 0px auto;
+    width: 1000px;    
+}
+.header{
+    display: block;
+    height: 80px;
+}
+
+.header li{
+    
+    list-style: none;
+    display: inline-flex;
+    margin-right: 20px;  
+}
+
+.nav{
+    position: relative;
+    float: right;
+}
+.header li a{
+    text-decoration: none;
+    color: #444;
+    font-weight: 500;
+    background-color: rgb(186, 237, 220);
+    padding: 5px 7px 5px 7px;
+    border-radius: 10%;
+}
+.header li a:hover{
+    background-color: #a19f9f;
+    color: #fff;
+}
+
+/*****BODY*****/
+#section1{
+    height: 400px;
+    border: 2px solid #777;
+    border-radius: 15px;
+}
+.hero1{
+    width: 55%;
+    margin-left: 50px;
+    float: left;
+    margin-top: 100px;
+    padding-left: 10px;
+   
+    
+}
+.hero1 p{
+    font-size: 15px;
+   
+}
+.hero1 a{
+    margin-top: 10px;
+    background: #000;
+    text-decoration: none;
+    border: 0px ;
+    color: #fff;
+    padding: 10px 15px ;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+.hero1 a:hover{
+    background: #fff;
+    text-decoration: none;
+    border: 1px solid #000 ;
+    color: #000;
+    padding: 10px 15px ;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    border-radius: 5px;
+
+}
+.hero2{
+    float: right;
+    margin-top: 40px;
+    margin-right: 30px;
+    
+   
+   
+    
+}
+.hero2 img{
+    width: 350px;
+    height: 300px;
+    
+    
+}
+
+
+
+#section2 h1{
+    margin-top: 100px;
+    text-align: center;
+
+}
+
+#section2 .box-img{
+    width: 220px;
+    height: 300px;
+    background-color: #000;
+    display: inline-block;
+    margin: 0px 13px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+#box1{
+    background: url(imgs/projet1.jpg);
+    background-size: cover;
+}
+#box2{
+    background: url(imgs/projet2.jpg);
+    background-size: cover;
+}
+#box3{
+    background: url(imgs/projet3.jpg);
+    background-size: cover;
+}
+#box4{
+    background: url(imgs/projet4.jpg);
+    background-size: cover;
+}
+.box h3{
+    margin-top: 250px;
+    margin-left: 15px;
+}
+
+footer{
+    margin-top: 100px;
+    background-color: #000;
+    height: 100px;
+    color: #fff;
+    width: 100%;
+    padding-top: 20px;
+}
+.bloc1{
+    float: left;
+    margin-left: 100px;
+}
+.bloc2{
+    float: right;
+    margin-right: 100px;
+}
+
+.bloc2 p{
+    font-size: 30px;
+    
+}
+i{
+    color: #fff;
+}
